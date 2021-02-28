@@ -1,9 +1,10 @@
-<form action='/recipes/<%=@recipe_id%>/edit'>
+<form action="/recipes/<%=@recipe_id%>">
 <input type='hidden' name='_method' value='patch'>
 <p>Name: <input type='text' id='name' value='<%=@recipe_name%>'></p>
 <p>Ingredients: <%=@recipe_ingredients%> <input type='text' id='name' value='<%=@recipe_ingredients%>'></p>
 <p>Cook Time: <input type='text' id='name' value='<%=@recipe_cook_time%>'></p>
 <input type='submit' value='Edit'>
 </form>
+
 
 
